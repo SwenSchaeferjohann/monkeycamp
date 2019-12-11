@@ -3,6 +3,8 @@ import React, { createElement} from 'react';
 
 import { Card, Accordion, Button, useAccordionToggle } from 'react-bootstrap';
 
+import FormBuilder from './FormBuilder';
+
 import ChannelForm from './ChannelForm'
 function Accordian() { 
 return(
@@ -27,7 +29,12 @@ return(
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="1">
-      <Card.Body>Hello! I'm another body</Card.Body>
+      <Card.Body>
+        <div className="form-builder-wrapper">
+          <FormBuilder className="form-builder"/>
+          <div className="form-preview"></div>
+        </div>
+      </Card.Body>
     </Accordion.Collapse>
   </Card>
 </Accordion>

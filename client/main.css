@@ -2,3 +2,25 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+.form-builder-wrapper{
+  display: flex;
+}
+.yes-no-buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.marginRight{
+  margin-right: 10px;
+}
+
+/* Accordion Form Builder */
+.form-builder-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.form-builder{
+  width: 50%;
+}
+.form-preview{
+  width: 50%;
+}
