@@ -3,7 +3,7 @@ import React, { createElement} from 'react';
 
 import { Card, Accordion, Button, useAccordionToggle } from 'react-bootstrap';
 
-import ChannelForm from './ChannelForm'
+
 function Accordian() { 
 return(
 <Accordion>
@@ -15,7 +15,7 @@ return(
     </Card.Header>
     <Accordion.Collapse eventKey="0">
       <Card.Body>
-        <ChannelForm/>
+
 
       </Card.Body>
     </Accordion.Collapse>

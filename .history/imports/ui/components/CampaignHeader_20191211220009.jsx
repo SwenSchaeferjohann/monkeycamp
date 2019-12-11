@@ -1,7 +1,7 @@
 import React, { Component, createElement } from 'react'
 import { Card, Col, Button, Form, FormControl } from 'react-bootstrap'
 
-
+import ChannelForm from './ChannelForm'
 import Accordian from './Accordian';
 class CampaignHeader extends Component {
   constructor(props) {

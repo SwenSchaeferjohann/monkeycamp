@@ -1,8 +1,7 @@
 import React, { Component, createElement } from 'react'
 import { Card, Col, Button, Form, FormControl } from 'react-bootstrap'
 
-
-import Accordian from './Accordian';
+import ChannelForm from './ChannelForm'
 class CampaignHeader extends Component {
   constructor(props) {
     super(props);
@@ -35,7 +34,7 @@ class CampaignHeader extends Component {
         <Card>
           <Card.Body>
 
-          {this.state.channelAdded ? <Accordian/>:''}
+          {this.state.channelAdded ? <ChannelForm/>}
            
            
           </Card.Body>

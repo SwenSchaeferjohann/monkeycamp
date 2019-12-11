@@ -13,7 +13,7 @@ const App = () => (
   <div>
     <NavBarTop />
     <SideBar />
-  
+    <Accordian />
   
   </div>
 );
