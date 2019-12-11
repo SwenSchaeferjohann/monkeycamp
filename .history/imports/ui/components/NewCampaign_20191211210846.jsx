@@ -1,6 +1,5 @@
 import React, { Component, createElement} from 'react';
 
-import CampaignHeader from './CampaignHeader'
 import { ButtonToolbar, Button } from 'react-bootstrap'
 
 
@@ -20,7 +19,6 @@ class NewCampaign extends Component {
       <ButtonToolbar>
        <Button onClick= {this.handleButtonClick.bind(this)}variant="outline-primary">add new campaign</Button>
       </ButtonToolbar>
-      { this.state.newCampaign ? <CampaignHeader/>:''}
     </div>
 
       );
