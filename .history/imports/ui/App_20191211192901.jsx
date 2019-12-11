@@ -1,10 +1,7 @@
-import React, { createElement} from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import NavBarTop from './components/NavBarTop'
-
-
 
 const App = () => (
   <div>
