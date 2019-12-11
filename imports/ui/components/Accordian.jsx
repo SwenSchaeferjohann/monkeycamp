@@ -5,10 +5,9 @@ import { Card, Accordion, Button, useAccordionToggle } from 'react-bootstrap';
 
 
 function Accordian() { 
-const decoratedOnClick = useAccordionToggle(eventKey, onClick);
 return(
-<Card.Header>
-  <Card></Card>
+<Accordion>
+  <Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
         Click me!
@@ -28,7 +27,7 @@ return(
       <Card.Body>Hello! I'm another body</Card.Body>
     </Accordion.Collapse>
   </Card>
-</Card.Header>
+</Accordion>
 )
 };
 
