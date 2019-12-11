@@ -1,6 +1,10 @@
 import React, { createElement} from 'react';
-import NewCampaign from './NewCampaign'
+
 import { Tabs, Tab, Nav, Row, Col } from 'react-bootstrap';
+import Tab from 'react-bootstrap/Tab';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+
 
 function SideBar (){
 return(
@@ -19,11 +23,10 @@ return(
     <Col sm={9}>
       <Tab.Content>
         <Tab.Pane eventKey="first">
-          <NewCampaign/> 
-          
+          <Sonnet />
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-          Welcome Screen 2
+          <Sonnet />
         </Tab.Pane>
       </Tab.Content>
     </Col>
@@ -31,5 +34,6 @@ return(
 </Tab.Container>
 )
 }
+
 
 export default SideBar;

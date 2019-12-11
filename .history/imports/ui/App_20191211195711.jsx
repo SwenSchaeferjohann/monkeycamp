@@ -3,16 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import NavBarTop from './components/NavBarTop';
-import SideBar from './components/SideBar';
-import Accordian from './components/Accordian';
+import SideBar from './components/SideBar'
 
 
 
 const App = () => (
   <div>
-    <NavBarTop />
-    <SideBar />
-    <Accordian />
+    <NavBarTop/>
   </div>
 );
 

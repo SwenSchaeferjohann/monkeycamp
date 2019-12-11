@@ -1,5 +1,5 @@
 import React, { createElement} from 'react';
-import NewCampaign from './NewCampaign'
+import NewCampaign from './Accordian'
 import { Tabs, Tab, Nav, Row, Col } from 'react-bootstrap';
 
 function SideBar (){
@@ -19,7 +19,6 @@ return(
     <Col sm={9}>
       <Tab.Content>
         <Tab.Pane eventKey="first">
-          <NewCampaign/> 
           
         </Tab.Pane>
         <Tab.Pane eventKey="second">

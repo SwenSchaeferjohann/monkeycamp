@@ -10,9 +10,9 @@ import Accordian from './components/Accordian';
 
 const App = () => (
   <div>
-    <NavBarTop />
+    <NavBarTop/>
     <SideBar />
-    <Accordian />
+    <Accordian />>
   </div>
 );
 
