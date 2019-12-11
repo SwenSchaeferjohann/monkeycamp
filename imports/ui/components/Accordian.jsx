@@ -10,7 +10,7 @@ return(
   <Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        Click me!
+        Channel
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
@@ -20,7 +20,7 @@ return(
   <Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="1">
-        Click me!
+        Create Feedback form
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="1">
