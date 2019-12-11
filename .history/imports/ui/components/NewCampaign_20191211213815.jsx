@@ -17,9 +17,8 @@ class NewCampaign extends Component {
   
     return (
       <div>
-        
       <ButtonToolbar>
-       <Button onClick= {this.handleButtonClick.bind(this)}variant="outline-primary">+ new campaign</Button>
+       <Button onClick= {this.handleButtonClick.bind(this)}variant="outline-primary">+ add new campaign</Button>
       </ButtonToolbar>
       { this.state.newCampaign ? <CampaignHeader/>:''}
     </div>

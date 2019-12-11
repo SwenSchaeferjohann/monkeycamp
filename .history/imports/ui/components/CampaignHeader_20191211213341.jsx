@@ -4,10 +4,8 @@ import { Card, Col, Button, Form, FormControl } from 'react-bootstrap'
 class CampaignHeader extends Component {
   constructor(props) {
     super(props);
-    this.state = { channelAdded: false }
+    this.state = {  }
   }
-
-  handleButtonClick(){this.setState({channelAdded: true})}
   render() { 
     return ( 
       <div>
@@ -17,10 +15,10 @@ class CampaignHeader extends Component {
             <Form>
               <Form.Row>
                 <Col>
-                  <Form.Control placeholder="Campaign name" />
+                  <Form.Control placeholder="First name" />
                 </Col>
                 <Col>
-                  <Button onClick={this.handleButtonClick.bind(this)}variant="primary">+ add channel</Button>
+                  <Button variant="primary">+ add channel</Button>
                 
                 </Col>
               </Form.Row>

@@ -4,10 +4,8 @@ import { Card, Col, Button, Form, FormControl } from 'react-bootstrap'
 class CampaignHeader extends Component {
   constructor(props) {
     super(props);
-    this.state = { channelAdded: false }
+    this.state = {  }
   }
-
-  handleButtonClick(){this.setState({channelAdded: true})}
   render() { 
     return ( 
       <div>
