@@ -22,7 +22,7 @@ return(
     <Form.Row>
         <Form.Group as={Col} md="3" controlId="validationCustom03">
           <Form.Label>Type</Form.Label>
-          <DropdownButton id="dropdown-basic-button" title="Billboard">
+          <DropdownButton id="dropdown-basic-button" title="Conference Booths">
             <Dropdown.Item href="#/action-1">Billboard</Dropdown.Item>
             <Dropdown.Item href="#/action-2">Radio</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Newspaper</Dropdown.Item>

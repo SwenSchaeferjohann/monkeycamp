@@ -13,9 +13,7 @@ class CampaignHeader extends Component {
   render() { 
     return ( 
       <div>
-        <div  className="card-header">
-
-        <Card>
+        <Card className="card-header">
           <Card.Body>
 
             <Form>
@@ -33,9 +31,8 @@ class CampaignHeader extends Component {
            
           </Card.Body>
         </Card>
-        </div>
 
-        <Card className="card">
+        <Card>
           <Card.Body>
 
           {this.state.channelAdded ? <Accordian/>:''}

@@ -9,7 +9,7 @@ return(
     value = this.event.innerText;
     }}>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-    Campaign Name
+    Conference Booths
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
