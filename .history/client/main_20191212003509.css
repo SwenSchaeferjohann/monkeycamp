@@ -33,9 +33,6 @@ body {
   text-align: center;
   font-size: 17px;
   font-weight: normal;
-  /* width: 320px; */
-  display: flex;
-  justify-content: center;
 }
 .close-btn{
   border-radius: 500px !important;

@@ -1,0 +1,10 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+
+.feedback-card{
+  box-shadow: 5 5 5 0.20 ;
+
+}

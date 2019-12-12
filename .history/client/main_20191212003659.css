@@ -31,9 +31,9 @@ body {
 .feedback-label-2{
   margin: 17px 0 15px ;
   text-align: center;
-  font-size: 17px;
-  font-weight: normal;
-  /* width: 320px; */
+  font-size: 22px;
+  font-weight: bold;
+  width: 320px;
   display: flex;
   justify-content: center;
 }

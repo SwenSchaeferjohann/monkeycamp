@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+
+.feedback-card{
+  box-shadow: 0 6px 100px 0 rgba(0,0,0,.35) !important;
+  border: none;
+  width: 320px;
+  height: 190px;
+}
+
+.feedback-label-big{
+  margin: 13px 0 15px ;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+
+
+}
+
+.feedback-label{
+  margin: 13px 0 15px ;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+
+
+.yes-no-wrapper{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.yes-btn{
+margin-right:5px;
+}
+
+.no-btn{
+
+  margin-left:5px;
+}
