@@ -7,7 +7,7 @@ class FormBuilder extends Component {
     super(props);
     this.state = {
         question: 'Did you meet us at Disrupt 2019?',
-        thankYouMessage: 'Thank you!',
+        thankYouMessage: 'Thank you for your input. We highly appreciate it.',
     };
     this.handleQuestionChange.bind(this);
     this.handleThankYouMessageChange.bind(this);

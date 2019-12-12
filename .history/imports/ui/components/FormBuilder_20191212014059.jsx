@@ -6,8 +6,8 @@ class FormBuilder extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        question: 'Did you meet us at Disrupt 2019?',
-        thankYouMessage: 'Thank you!',
+        question: 'Did you see us on billboard?',
+        thankYouMessage: 'Thank you for your input. We highly appreciate it.',
     };
     this.handleQuestionChange.bind(this);
     this.handleThankYouMessageChange.bind(this);
@@ -30,7 +30,7 @@ class FormBuilder extends Component {
       <Form>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Define a question</Form.Label>
+            <Form.Label>What would you like to ask the user?</Form.Label>
             <Form.Control 
                 as="textarea" 
                 rows="3"
@@ -49,7 +49,7 @@ class FormBuilder extends Component {
         </Form.Group> */}
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Define a thank you message</Form.Label>
+            <Form.Label>Thank you message for user</Form.Label>
             <Form.Control 
                 as="textarea" 
                 rows="3"
