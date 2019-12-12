@@ -1,5 +1,6 @@
 import React, { createElement} from 'react';
-import NewCampaign from './NewCampaign'
+import NewCampaign from './NewCampaign';
+import AnalyticsContent from './TabAnalytics'
 import { Tabs, Tab, Nav, Row, Col } from 'react-bootstrap';
 
 function SideBar (){
@@ -9,10 +10,10 @@ return(
     <Col sm={3}>
       <Nav variant="pills" className="flex-column">
         <Nav.Item>
-          <Nav.Link eventKey="first">Tab 1</Nav.Link>
+          <Nav.Link eventKey="first">Setup</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="second">Tab 2</Nav.Link>
+          <Nav.Link eventKey="second">Analytics</Nav.Link>
         </Nav.Item>
       </Nav>
     </Col>
@@ -23,7 +24,7 @@ return(
           
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-          Welcome Screen 2
+          <AnalyticsContent />
         </Tab.Pane>
       </Tab.Content>
     </Col>

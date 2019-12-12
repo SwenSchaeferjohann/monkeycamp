@@ -6,6 +6,7 @@ import { Card, Accordion, Button, useAccordionToggle } from 'react-bootstrap';
 import FormBuilder from './FormBuilder';
 
 import ChannelForm from './ChannelForm'
+import TargetingForm from './TargetingForm';
 function Accordian() { 
 return(
 <Accordion>
@@ -18,7 +19,6 @@ return(
     <Accordion.Collapse eventKey="0">
       <Card.Body>
         <ChannelForm/>
-
       </Card.Body>
     </Accordion.Collapse>
   </Card>
@@ -37,6 +37,19 @@ return(
       </Card.Body>
     </Accordion.Collapse>
   </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="2">
+        Targeting
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="2">
+      <Card.Body>
+        <TargetingForm />
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  
 </Accordion>
 )
 };
