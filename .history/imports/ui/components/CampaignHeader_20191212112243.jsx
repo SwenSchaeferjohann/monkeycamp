@@ -13,9 +13,9 @@ class CampaignHeader extends Component {
   render() { 
     return ( 
       <div>
-        <div style={{ backgroundcolor: "white"}} className="card-header">
+        <div  className="card-header">
 
-        <Card style={{border: "none"}}>
+        <Card>
           {/* <Card.Body> */}
 
             <Form className="formform">

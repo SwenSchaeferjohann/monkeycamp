@@ -36,8 +36,8 @@ return(
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="3" controlId="validationCustom05">
-          <Form.Label>when</Form.Label>
-          <Form.Control type="text" placeholder="mm/dd/yy" required />
+          <Form.Label>When</Form.Label>
+          <Form.Control type="text" placeholder="Date" required />
           <Form.Control.Feedback type="invalid">
             Please provide a valid zip.
           </Form.Control.Feedback>

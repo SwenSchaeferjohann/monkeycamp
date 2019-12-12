@@ -11,7 +11,7 @@ return(
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Triggered after</Form.Label>
+      <Form.Label>After</Form.Label>
       <Form.Control type="text" placeholder="Sign Up" />
     </Form.Group>
   </Form.Row>

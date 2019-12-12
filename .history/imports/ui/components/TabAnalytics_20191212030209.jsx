@@ -9,7 +9,7 @@ return(
     value = this.event.innerText;
     }}>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-    TechCrunch 2019
+    Conference Booths
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
@@ -30,7 +30,7 @@ return(
   </thead>
   <tbody>
     <tr>
-      <td> Conference Booths</td>
+      <td>TechCrunch Booth</td>
       <td>100</td>
       <td>300</td>
       <td>33.33%</td>

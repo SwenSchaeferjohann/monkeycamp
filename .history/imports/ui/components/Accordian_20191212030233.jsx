@@ -9,10 +9,10 @@ import ChannelForm from './ChannelForm'
 import TargetingForm from './TargetingForm';
 function Accordian() { 
 return(
-<Accordion  defaultActiveKey="0">
+<Accordion>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="0">
+      <Accordion.Toggle as={Button} defaultActiveKey="0"variant="link" eventKey="0">
         Channel
       </Accordion.Toggle>
     </Card.Header>

@@ -28,7 +28,7 @@ return(
             <Dropdown.Item href="#/action-3">Newspaper</Dropdown.Item>
           </DropdownButton>
         </Form.Group>
-        <Form.Group as={Col} className="special-stuff" md="3" controlId="validationCustom04">
+        <Form.Group as={Col} style={{marginleft: "60px"}} md="3" controlId="validationCustom04">
           <Form.Label>Where</Form.Label>
           <Form.Control type="text" placeholder="City" required />
           <Form.Control.Feedback type="invalid">
@@ -36,8 +36,8 @@ return(
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="3" controlId="validationCustom05">
-          <Form.Label>when</Form.Label>
-          <Form.Control type="text" placeholder="mm/dd/yy" required />
+          <Form.Label>When</Form.Label>
+          <Form.Control type="text" placeholder="Date" required />
           <Form.Control.Feedback type="invalid">
             Please provide a valid zip.
           </Form.Control.Feedback>

@@ -5,19 +5,12 @@ body {
 .col-sm-9{
   padding: 15px;
 }
-
-.col-sm-3{
-  max-width: 184px !important;
-}
 .col{
   max-width: 420px;
   background-color: white;
 }
 .table-responsive{
   margin-top: 45px;
-}
-.blub{
-  margin-left: 1580px;
 }
 .special-stuff{
   margin-left: 60px;

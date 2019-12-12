@@ -10,7 +10,7 @@ return(
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Nav.Link id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link className= "blub" href="#home">Settings</Nav.Link>
+          <Nav.Link className="blub" ref="#home">Settings</Nav.Link>
         </Nav>
         
       </Nav.Link>

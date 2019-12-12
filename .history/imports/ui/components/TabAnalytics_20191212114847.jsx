@@ -9,7 +9,7 @@ return(
     value = this.event.innerText;
     }}>
   <Dropdown.Toggle variant="success" id="dropdown-basic">
-    TechCrunch 2019
+    Conference Booths
   </Dropdown.Toggle>
 
   <Dropdown.Menu>

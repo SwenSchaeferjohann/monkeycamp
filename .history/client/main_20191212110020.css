@@ -6,40 +6,8 @@ body {
   padding: 15px;
 }
 
-.col-sm-3{
-  max-width: 184px !important;
-}
-.col{
-  max-width: 420px;
-  background-color: white;
-}
-.table-responsive{
-  margin-top: 45px;
-}
-.blub{
-  margin-left: 1580px;
-}
-.special-stuff{
-  margin-left: 60px;
-}
 .card-header{
   margin: 30px 0px -1px 0px;
-  border: 1px solid rgba(0,0,0,.12);
-  
-  
-}
-.card{
-  background-color: rgba(0,0,0,0.0);
-}
-
-.formform{
-  border:none;
-  /* background-color: rgba(0,0,0,.12); */
-}
-.form-row{
-  width: 593px;
-  border:none;
-  background-color: white;
 }
 
 
