@@ -34,8 +34,8 @@ class FormBuilder extends Component {
             <Form.Control 
                 as="textarea" 
                 rows="3"
-                onChange={this.handleQuestionChange}
-                value={this.state.question}
+                onChange={this.handleChange}
+                placeholder="Did you see us at Disrupt 2019?"
                 // defaultValue={this.state.question}
                 />
         </Form.Group>

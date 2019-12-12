@@ -73,7 +73,7 @@ class TheFeedBackForm extends Component {
                     <Form.Label className="feedback-label-2"> 
                       <div>
 
-                        {this.props.thankYouMessage}
+                        Thank you!
                       </div>
                     </Form.Label>
                   </Card.Title>

@@ -23,10 +23,6 @@ class FormBuilder extends Component {
 
   render() {
     return (
-
-
-      <div className="form-builder-wrapper">
-
       <Form>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
@@ -34,10 +30,9 @@ class FormBuilder extends Component {
             <Form.Control 
                 as="textarea" 
                 rows="3"
-                onChange={this.handleQuestionChange}
+                onChange={this.handleChange}
                 value={this.state.question}
-                // defaultValue={this.state.question}
-                />
+            />
         </Form.Group>
 
         <Form.Group>
@@ -55,8 +50,7 @@ class FormBuilder extends Component {
                 rows="3"
                 onChange={this.handleThankYouMessageChange}
                 value={this.state.thankYouMessage}
-
-                />
+            />
         </Form.Group>
 
         <Form.Row>
@@ -67,27 +61,16 @@ class FormBuilder extends Component {
             label="left"
             name="formHorizontalRadios"
             id="formHorizontalRadios1"
-            />
+          />
           <Form.Check
             type="radio"
             label="right"
             name="formHorizontalRadios"
             id="formHorizontalRadios2"
-            />
+          />
         </Form.Row>
 
       </Form>
-        
-      <div className="form-preview">  
-        <TheFeedBackForm thankYouMessage={this.state.thankYouMessage} question={this.state.question}/>
-       </div>
-
-
-    </div>
-
-
-
-
     );
   }
 }

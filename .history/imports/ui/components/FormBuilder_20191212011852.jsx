@@ -34,9 +34,9 @@ class FormBuilder extends Component {
             <Form.Control 
                 as="textarea" 
                 rows="3"
-                onChange={this.handleQuestionChange}
-                value={this.state.question}
-                // defaultValue={this.state.question}
+                onChange={this.handleChange}
+                
+                defaultValue={this.state.question}
                 />
         </Form.Group>
 
@@ -55,7 +55,6 @@ class FormBuilder extends Component {
                 rows="3"
                 onChange={this.handleThankYouMessageChange}
                 value={this.state.thankYouMessage}
-
                 />
         </Form.Group>
 
